@@ -24,6 +24,22 @@
    column-gap: $column;
    row-gap: $row;
 }
+
+/* PABLO'S MIXIN - NO COPY Copyright protected */
+@mixin flexText {
+   display: flex;
+   text-align: center;
+   align-items: center;
+   justify-content: center;
+}
+
+@mixin bgImage($url) {
+   background-image: url($url);
+   background-position: center;
+   background-size: cover;
+   background-repeat: no-repeat;
+}
+
 /*
 @include flexContent;
 @include flexContent(column);
