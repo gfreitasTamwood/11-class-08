@@ -347,23 +347,4 @@
 
    }
 
-   footer {
-      padding: 5%;
-      width: 90%;
-      @include flexColumn;
-      row-gap: 1vh;
-      align-items: center;
-      color: $defaultColor;
-
-      a {
-         text-decoration: none;
-         color: $defaultColor;
-         background-color: gainsboro;
-         display: flex;
-         justify-content: center;
-         align-items: center;
-         width: 5vh;
-         height: 5vh;
-      }
-   }
 }
