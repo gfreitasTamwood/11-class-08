@@ -1,5 +1,4 @@
 @media (min-width: $mediaSizeMob) {
-
    nav {
       padding-top: 10%;
       padding-bottom: 15%;
@@ -164,6 +163,7 @@
          height: 20vh;
          width: 90%;
          @include bgImage("/img/pic-04.jpg");
+         background-attachment: fixed;
       }
 
       h2 {
